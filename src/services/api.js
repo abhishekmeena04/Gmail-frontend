@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API_URI = "http://localhost:8000";
-const API_URI = "https://gmail-backend-0qay.onrender.com/";
+const API_URI = "https://gmail-backend-sigma.vercel.app";
 
 const API_GMAIL = async (serviceUrlObject, requestData = {}, type) => {
   const { params, urlParams, ...body } = requestData;
